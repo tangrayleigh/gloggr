@@ -1,0 +1,182 @@
+body {
+	color: #777;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 100%;
+}
+
+header {
+	background: url('../images/real_cf_@2X.png') repeat;
+	border-bottom: 1px solid rgba(0,0,0,1);
+	box-shadow: 0 3px 6px 1px rgba(0,0,0,0.5);
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	z-index: 100;
+}
+
+.headerContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 960px;
+
+}
+
+h1,
+h2 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: deepskyblue;
+}
+
+
+h1 {
+	padding: 0.75em;
+	width: fit-content;
+}
+
+nav > ul {
+	display: flex;
+}
+
+li {
+	color: gray;
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding: 0 1em;
+}
+
+li > a {
+	color: lightgray;
+	text-decoration: none;
+}
+
+li:nth-child(1),
+li:nth-child(2) {
+	border-right: 1px solid #ccc;
+}
+
+main {
+	max-height: 100%;
+	width: 100%;
+	padding: 2em;
+}
+
+.content {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	box-shadow: 0 3px 3px 1px rgba(221,221,221,0.7);
+	width: 960px;
+	margin: 0 auto;
+	padding: 2em;
+	overflow: auto;	
+}
+
+.content > h2 {
+	padding: 0 0 1em 0;
+	border-bottom: 1px solid #ccc;
+	margin: 0 0 1em 0;
+}
+
+footer {
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.75);
+	border-top: 1px solid #rgba(0,0,0,1);
+	background: url('../images/real_cf_@2X.png') repeat;
+}
+
+footer > p {
+	color: #ccc;
+	line-height: 3;
+	text-align: center;
+}
+
+/* about me page - content styling */
+.content > img {
+	width: 25%;
+	height: 25%;
+	padding: 0 1em 0 0;
+	float: left;
+}
+
+.content > p {
+	margin-top: -0.75em;
+	line-height: 2.5em;
+}
+
+
+/* contact page - form styling */
+form > div {
+	font-weight: bold;
+	margin: 2em 0 0;
+}
+
+label {
+	line-height: 2em;
+}
+
+input,
+textarea {
+	display: block;
+	border: 1px solid #ccc;
+	line-height: 2em;
+	padding: 0.5em;
+	width: 100%;
+}
+
+textarea {
+	height: 15em;
+}
+
+button {
+	color: #fff;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.7);
+	font-size: 1em;
+	font-weight: bold;
+	padding: 1em 2em;
+}
+
+a:hover,
+a:active {
+	color:deepskyblue;
+	text-decoration-line: underline;
+}
+
+.filler {
+	height: 20vh;
+}
+
+/* portfolio page - rulesets */
+.imgWrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+figure {
+	position: relative;
+	padding: 0;
+	margin: 1em;
+	box-shadow: -3px 3px 9px 1px rgb(0, 0, 0, 0.7);
+}
+
+img {
+	width: 400px;
+	height: 400px;
+}
+
+figcaption {
+	font-weight: bold;
+	position: absolute;
+	bottom: 1.5em;
+	background-color: rgba(0,0,0,0.7);
+	color: white;
+	padding: 0.5em;
+	width: 100%;
+	text-align: center;
+}
