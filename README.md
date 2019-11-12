@@ -1,1 +1,1 @@
-# gloggr
+Responsiveness Assignment - No Bootstrap
